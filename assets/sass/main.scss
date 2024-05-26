@@ -1,0 +1,20 @@
+// main.scss #Manifest File
+@use 'abstracts/variables';
+@use 'abstracts/functions';
+@use 'abstracts/mixins';
+@use 'vendors/bootstrap';
+@use 'vendors/jquery-ui';
+@use 'base/reset';
+@use 'base/typography';
+@use 'layout/main-home';
+@use 'layout/grid';
+@use 'layout/header';
+@use 'layout/footer';
+@use 'components/buttons';
+@use 'components/conocenos';
+@use 'components/hero';
+@use 'components/navbar';
+@use 'pages/contact';
+@use 'pages/home';
+@use 'themes/admin';
+@use 'themes/theme';

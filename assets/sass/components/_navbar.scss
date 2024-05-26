@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    letter-spacing: 1px;
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      gap: 130px;
+    }
+    &__menu__lista {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      list-style: none;
+      gap: 35px;
+    }
+    &__menu__logo {
+      height: 50px;
+    }
+    &__login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+    }
+}
+  
+a:link,
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: $black;
+    font-weight: 400;
+}
